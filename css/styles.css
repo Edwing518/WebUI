@@ -1,0 +1,116 @@
+/*
+Estilos sitio web replica
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    margin: 15px 50px;
+}
+
+button {
+    background-color: rgb(246, 25, 25);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
+
+input[type="email"] {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 4em;
+    margin: 0;
+    font-weight: 300;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    margin: 0px 20px;
+}
+
+nav ul {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin: 5px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: gray;
+}
+
+nav ul li a :hover{
+    color: #f44336;
+    cursor: pointer;
+}
+
+.box-content {
+    margin-top: 30px;
+    padding-top: 130px;
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+form {
+    display: flex;
+    margin: 10px;
+}
+
+.sho-buttons{
+    display: flex;
+    margin: 10px;
+}
+
+.sho-buttons div{
+    margin-right:20px;
+}
+.sho-buttons div img{
+    width: 160px;
+}
+
+.box-middle{
+    width: 50%;
+}
+
+.box-middle p{
+    text-align: justify;
+}
